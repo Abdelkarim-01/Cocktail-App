@@ -285,3 +285,6 @@ PROJECT CSS
   margin: 0 auto;
   padding: 5rem 2rem;
 }
+.active {
+  color: var(--primary-500);
+}
