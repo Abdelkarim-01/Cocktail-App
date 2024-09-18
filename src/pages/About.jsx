@@ -4,7 +4,7 @@ import styles from'./../styles/About.module.css'
 
 const About = () => {
   return (
-    <div>
+    <div className={styles.about_div}>
       <h3>About Us</h3>
       <p>
         Introducing "MixMaster," the ultimate party sidekick app that fetches
