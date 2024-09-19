@@ -51,9 +51,9 @@ html {
   --borderRadius: 0.25rem;
   --letterSpacing: 1px;
   --transition: 0.3s ease-in-out all;
-  --max-width: 1120px;
+  --max-width: 2000px;
   --fixed-width: 600px;
-  --view-width: 90vw;
+  --view-width: 100vw;
   /* box shadow*/
   --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -271,9 +271,9 @@ PROJECT CSS
 */
 .page {
   width: var(--view-width);
-  max-width: var(--max-width);
+  max-width: 95vw;
   margin: 0 auto;
-  padding: 2rem 2rem;
+  padding: 9rem 2rem;
 }
 .active {
   color: var(--primary-500);
